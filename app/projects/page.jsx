@@ -40,12 +40,13 @@ export default function ProjectsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ ...PAGE_TRANSITION, delay: Math.min(i * 0.04, 0.12) }}
               viewport={{ once: true, margin: '-40px' }}
-              className={`group flex flex-col ${i === 0 ? 'md:col-span-2' : ''}`}
+              className={`border-beam-wrapper group flex flex-col rounded-2xl ${i === 0 ? 'md:col-span-2' : ''}`}
               onMouseEnter={() => setHoveredProject(project)}
               onMouseLeave={() => setHoveredProject(null)}
             >
+              <div className="border-beam-content pointer-events-none" />
               {/* Project Info */}
-              <div className="flex flex-col gap-4 p-8 rounded-3xl bg-sidebar/5 border border-border/50 hover:border-primary/30 transition-colors h-full">
+              <div className="flex flex-col gap-4 p-8 rounded-[calc(1rem-2px)] bg-white/40 dark:bg-sidebar/20 transition-colors h-full relative z-10">
                 <div className="flex justify-between items-start">
                   <Link href={`/projects/${project.id}`}>
                     <h2 className="text-3xl font-space font-bold text-heading group-hover:text-primary transition-colors cursor-pointer">
