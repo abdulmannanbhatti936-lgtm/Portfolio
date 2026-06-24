@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+Sitemap: https://abdulmannanbhatti936-lgtm.github.io/MyPortfolio/sitemap.xml
