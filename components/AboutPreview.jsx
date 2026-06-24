@@ -9,15 +9,7 @@ export default function AboutPreview() {
   return (
     <SectionWrapper id="about" sectionIndex={1} className="relative overflow-hidden py-24 lg:py-32">
       
-      {/* Sleek Background Typography (Subtle outline, positioned behind everything) */}
-      <div className="absolute top-1/2 right-0 -translate-y-1/2 pointer-events-none select-none flex justify-end z-0 opacity-10">
-        <h2 
-          className="text-[10rem] sm:text-[18rem] lg:text-[26rem] font-space font-black leading-none text-transparent" 
-          style={{ WebkitTextStroke: '2px var(--primary)' }}
-        >
-          ABOUT
-        </h2>
-      </div>
+
 
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20 items-center">
         
