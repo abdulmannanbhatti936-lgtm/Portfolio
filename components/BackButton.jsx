@@ -11,11 +11,11 @@ export default function BackButton({ href, text }) {
     <Link
       href={targetHref}
       prefetch
+      className="back-button lg:hidden"
       aria-label={displayText}
-      className="back-button"
     >
       <span className="button-content">
-        <FiArrowLeft size={18} className="button-icon" />
+        <FiArrowLeft size={18} />
         {displayText}
       </span>
     </Link>
