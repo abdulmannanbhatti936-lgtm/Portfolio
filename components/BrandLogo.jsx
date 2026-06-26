@@ -20,7 +20,7 @@ export default function BrandLogo() {
         </span>
       </Link>
 
-      <div className="hidden lg:flex flex-col gap-1 pointer-events-auto cursor-pointer group">
+      <div className="flex lg:hidden flex-col gap-1 pointer-events-auto cursor-pointer group">
         <div className="w-8 h-[2px] bg-heading group-hover:w-10 transition-all duration-300"></div>
         <div className="w-6 h-[2px] bg-heading group-hover:w-8 transition-all duration-300 self-end"></div>
       </div>
