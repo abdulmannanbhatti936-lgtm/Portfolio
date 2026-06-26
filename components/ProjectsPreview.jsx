@@ -58,11 +58,6 @@ export default function ProjectsPreview() {
                     {project.desc}
                   </p>
                 </div>
-                <div className="hidden sm:block opacity-0 group-hover:opacity-100 transition-opacity duration-500 shrink-0">
-                  <div className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                    →
-                  </div>
-                </div>
               </div>
             </motion.div>
           ))}
