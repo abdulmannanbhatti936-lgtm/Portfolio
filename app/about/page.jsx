@@ -25,14 +25,14 @@ const timeline = [
     year: '2025', 
     title: 'Advanced Systems', 
     desc: 'Developed Property Platforms & Hotel Management Systems.', 
-    status: 'in-progress',
+    status: 'completed',
     tags: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion']
   },
   { 
     year: '2026', 
     title: 'AI & Freelancing', 
     desc: 'Integrated AI Chatbots and started professional freelancing journey.', 
-    status: 'upcoming',
+    status: 'in-progress',
     tags: ['AI Integration', 'REST APIs', 'Fiverr']
   },
   { 
