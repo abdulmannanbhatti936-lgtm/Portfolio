@@ -64,7 +64,7 @@ export default function ProjectsPage() {
 
                 <div className="flex flex-wrap gap-3 mt-2 mb-4">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="text-[10px] font-bold uppercase tracking-widest text-subtle px-3 py-1 bg-white/50 border border-border rounded-full">
+                    <span key={tech} className="text-[10px] font-bold uppercase tracking-widest text-heading px-3 py-1 rounded-full bg-white/90 border-2 border-sidebar/20 shadow-sm">
                       {tech}
                     </span>
                   ))}
